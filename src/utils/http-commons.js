@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const pokeAxios = axios.create({
+export const pokeAxios = axios.create({
     baseURL: "https://pokeapi.co/api/v2",
     headers: {
         crossDomain: true,
@@ -8,9 +8,3 @@ const pokeAxios = axios.create({
         "Access-Control-Allow-Origin": "*",
     },
 })
-
-export const getPokemon = async () => {
-    const url = `/pokemon`
-
-    return (await pokeAxios.get(url)).data
-}
