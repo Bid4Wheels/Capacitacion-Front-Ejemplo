@@ -7,7 +7,7 @@ export function Header() {
         <Box sx={{flexGrow: 1, width: '100%'}}>
             <AppBar position="static" color="primary">
             <Toolbar>
-                <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
+                <Typography variant="h1" sx={{ flexGrow: 1 }}>
                     Pokedex
                 </Typography>
             </Toolbar>

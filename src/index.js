@@ -5,6 +5,8 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import {pokemonPageTheme} from "./utils/styles";
+import {ThemeProvider} from "@mui/material";
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -12,7 +14,9 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+        <ThemeProvider theme={pokemonPageTheme}>
+            <App />
+        </ThemeProvider>
     </Provider>
   </React.StrictMode>
 );
