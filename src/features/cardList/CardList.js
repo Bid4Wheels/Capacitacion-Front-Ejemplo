@@ -22,6 +22,7 @@ export function CardList() {
 
     // imgLink = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonIndex}.png`
 
+    // A change
     return (
         <Box paddingBottom={"30px"}>
             <Box display="flex" flexWrap={"wrap"} padding={"20px"} justifyContent={"center"}>
