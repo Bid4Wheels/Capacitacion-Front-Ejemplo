@@ -1,5 +1,6 @@
 import {createAsyncThunk, createSelector, createSlice} from '@reduxjs/toolkit';
 import {fetchCount, fetchDetails} from "./pokemonAPI";
+import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query";
 
 const initialState = {
     pokemon: [],

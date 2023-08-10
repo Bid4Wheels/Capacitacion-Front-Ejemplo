@@ -1,5 +1,5 @@
 import {useDispatch, useSelector} from "react-redux";
-import {requestPokemon, selectNormalizedPoke, selectPokemon, selectPokemonPage, selectPokemonStatus} from "./cardSlice";
+import {requestPokemon, selectNormalizedPoke, selectPokemon, selectPokemonPage, selectPokemonStatus} from "../../../store/cards/cardSlice";
 import {useEffect, useState} from "react";
 
 export const usePokemonCards = () => {

@@ -15,7 +15,7 @@ export const pokemonPageTheme = createTheme({
             '"Segoe UI Symbol"',
         ].join(','),
         h1: {
-            fontSize: "40px"
+            fontSize: "40px",
         }
     }
 })
